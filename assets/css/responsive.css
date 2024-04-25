@@ -1,0 +1,205 @@
+
+/* Mobile */
+@media (max-width: 740px) {
+    /* xoay ngang */
+    /* body {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        transform: rotate(90deg);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+    } */
+    /* ================<<login>>=================== */
+    .sign-up__form--label{
+        font-size: 1rem;
+    }
+
+    .sign-in__form--para-forgot{
+        font-size: 1rem;
+    }
+
+    .sign-in__form--para{
+        font-size: 1rem;
+    }
+
+    .sign-in__form--link{
+        font-size: 1rem;
+    }
+    /*
+    .sign-in__form--input-gender{
+        font-size: 1rem;
+    } */
+
+    #male, #female{
+        font-size: 0.5rem;
+    }
+
+    .sign-in__form--inp-para{
+        font-size: 1.2rem;
+    }
+
+    .sign-in__form--input{
+        font-size: 0.8rem;
+    }
+
+    /* ===================<<header>>================ */
+
+    .header__about--login_signup{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* =======================<<footer>>==================== */
+
+    .footer__bottom--para{
+        font-size: 1rem;
+        letter-spacing: 0;
+    }
+
+    .footer__mid--para{
+        font-size: 1.2rem;
+    }
+
+    /* ==============<<Main_page>>============== */
+    .film-main__inner-list{
+        overflow-x: scroll;
+    }
+
+    /* ==============<<Film>>=========== */
+    .films__items, .films__items--inner{
+        height: 650px;
+    }
+
+    .films__items--btn{
+        bottom: 20px;
+    }
+
+    .films__items--img{
+        height: 430px;
+    }
+
+    .films__choice--header{
+        padding: 2px;
+        font-size: 1rem;
+    }
+
+    .film__describe--traier-outer, .film__describe--link{
+        padding-left: 25px;
+    }
+
+    .film__describe--trailer, .film__describe--booking{
+        width: 100%;
+        margin: 0;
+    }
+    /* ===================<<Describe>>============== */
+    .film__describe--content{
+        display: block;
+    }
+
+    /* ====================<<Booking seat>>===================== */
+    .booking-seat__content--seat-items{
+        /* width: 20px;
+        height: 20px;
+        padding: 0; */
+    }
+
+    .booking-seat__content-seat-box-type,
+    .booking-seat__content-seat-type-inner{
+        align-items: center;
+    }
+
+    .booking-seat__content--box,
+    .booking-seat__content-seat-type-box{
+        width: 20px;
+        height: 20px;
+        margin-bottom: 0;
+    }
+
+    .booking-seat__btn-pay{
+        font-size: 1.3rem;
+    }
+    /* ===============<<table>>================== */
+    /* th, td{
+        font-size: 0.5rem;
+    } */
+    .myticket-th__para{
+        font-size: 0.8rem;
+    }
+
+    .myticket-td__para{
+        font-size: 0.8rem;
+    }
+
+    /* ============<<package>>============== */
+    .package__items{
+        height: 360px;
+    }
+
+    .package__items--img{
+        height: 72%;
+    }
+
+    /* .package__items--about{
+        font-size: 1rem;
+    } */
+}
+
+/* Tablet */
+@media (min-width: 741px) and (max-width: 1023px) {
+    /* =================<<footer>>================== */
+    .footer__bottom--para{
+        font-size: 1.5rem;
+    }
+
+    .footer__mid--para{
+        font-size: 1.2rem;
+    }
+
+    /* ==============<<Main_page>>============== */
+    .film-main__inner-list{
+        overflow-x: scroll;
+    }
+
+    /* ===============<<table>>================== */
+    /* th, td{
+        font-size: 0.5rem;
+    } */
+    .myticket-th__para{
+        font-size: 0.9rem;
+    }
+
+    .myticket-td__para{
+        font-size: 0.9rem;
+    }
+
+    /* ============<<package>>============== */
+    .package__items{
+        height: 250px;
+    }
+
+    .package__items--img{
+        height: 60%;
+    }
+
+    .package__items--about, .package__items--describe, 
+    .package__items--price-header,.package__items--price{
+        font-size: 1rem;
+    }
+
+    /* ===============<<voucher>>================ */
+    .voucher-main__img{
+        height: 90%;
+        /* width: 90%; */
+    }
+    /* Tâm */
+}
+
+/* PC */
+@media (min-width: 1024px) {
+
+    /* Tâm */
+}
